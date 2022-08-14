@@ -1,0 +1,309 @@
+/*Обнуление*/
+*{
+	padding: 0;
+	margin: 0;
+	border: 0;
+}
+*,*:before,*:after{
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+}
+:focus,:active{outline: none;}
+a:focus,a:active{outline: none;}
+nav,footer,header,aside{display: block;}
+html,body{
+	height: 100%;
+	width: 100%;
+	font-size: 100%;
+	line-height: 1;
+	font-size: 14px;
+	-ms-text-size-adjust: 100%;
+	-moz-text-size-adjust: 100%;
+	-webkit-text-size-adjust: 100%;
+}
+input,button,textarea{font-family:inherit;}
+input::-ms-clear{display: none;}
+button{cursor: pointer;}
+button::-moz-focus-inner {padding:0;border:0;}
+a, a:visited{text-decoration: none;}
+a:hover{text-decoration: none;}
+ul li{list-style: none;}
+img{vertical-align: top;}
+h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: 400;}
+/*--------------------*/
+body{
+    background-color: #000000;
+}
+.content{
+    width: 620px;
+    background-color: #000000;
+    margin: 0px auto;
+}
+/*---блок 1---*/
+.block1{
+    height: 500px;
+    background-image: url("../img/m2.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.block1__items{
+    display: flex;
+    width: 80%;
+    float: left;
+    flex-direction: column;
+    margin: 30px 30px;
+}
+.block1__items-item01{
+	color: #ff0000;
+	font-family: 'Bebas Neue', cursive;
+	font-size: 125px;
+	margin: 0px;
+}
+.block1__items-item02{
+    font-family: 'Oswald', sans-serif;
+	color: #9e0000;
+	font-size: 24px;
+	margin: 0px;
+}
+.block1__items-item03{
+    font-family: 'Oswald', sans-serif;
+	color: white;
+	font-size: 25px;
+	margin: 25px 0px;
+}
+/*---блок 2---*/
+.block2{
+    height: 480px;
+    background-color: #0b0b0d;
+    padding: 20px 0px;
+}
+.block2__tail1{
+    display: flex;
+    width: 50%;
+    float: left;
+    flex-direction: column;
+    margin: 80px 0px 80px -30px;
+    align-items: center;
+}
+.block2__tail2{
+    display: flex;
+    width: 50%;
+    float: left;
+    flex-direction: column;
+    margin: 20px 0px;
+}
+.img01{
+    height: 250px;
+}
+.block2__tail2-item1{
+    font-family: 'Oswald', sans-serif;
+	color: #ff0000;
+    font-size: 28px;
+	margin: 15px 0px;
+	text-align: center;
+}
+.block2__tail2-item2{
+    font-family: 'Oswald', sans-serif;
+	color: white;
+	font-size: 19px;
+	margin: 5px 0px 25px 0px;
+	text-align: justify;
+}
+/*---блок 3---*/
+.block3{
+    height: 500px;
+    background-color: #161515;
+    padding: 80px 0px;
+}
+.block3__back{
+    height: 350px;
+    padding: 0px;
+    background-image: url("../img/ph1.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.block3__form{
+    height: 500px;
+    display: flex;
+    width: 70%;
+    margin: 0px 0px 0px 180px;
+    flex-direction: column;
+    text-align: center;
+}
+.block3__form-01{
+	color: #e57336;
+	font-family: 'Bebas Neue', cursive;
+	font-size: 55px;
+	margin: 0px 40px 0px 10px;
+}
+.block3__form-02{
+	color: white;
+    font-family: 'Oswald', sans-serif;
+	font-size: 19px;
+	margin: 10px 120px 50px 100px;
+}
+/*---блок 4---*/
+.block4{
+    height: 500px;
+    background-color: #1b1b1b;
+    padding: 80px 0px;
+}
+.block4__back{
+    height: 350px;
+    padding: 0px;
+    background-image: url("../img/ph2.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.block4__form{
+    height: 500px;
+    display: flex;
+    width: 70%;
+    margin: 0px 0px 0px 120px;
+    flex-direction: column;
+    text-align: center;
+}
+.block4__form-01{
+	color: #ff414a;
+	font-family: 'Bebas Neue', cursive;
+	font-size: 55px;
+	margin: 0px 100px 0px 10px;
+}
+.block4__form-02{
+	color: white;
+    font-family: 'Oswald', sans-serif;
+	font-size: 19px;
+	margin: 10px 170px 50px 20px;
+}
+/*---блок 5---*/
+.block5{
+    height: 450px;
+    background-color: #161515;
+    padding: 10px 0px;
+}
+.block5__back{
+    height: 350px;
+    padding: 10px 0px;
+    background-image: url("../img/ph3.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.block5__form{
+    height: 400px;
+    display: flex;
+    width: 70%;
+    margin: 0px 0px 0px 180px;
+    flex-direction: column;
+    text-align: center;
+}
+.block5__form-01{
+	color: #424f99;
+	font-family: 'Bebas Neue', cursive;
+	font-size: 55px;
+	margin: 20px 20px 20px 100px;
+}
+.block5__form-02{
+	color: white;
+    font-family: 'Oswald', sans-serif;
+	font-size: 19px;
+	margin: 0px 20px 20px 140px;
+}
+/*---блок 6---*/
+.block6{
+    height: 500px;
+    background-color: #1b1b1b;
+    padding: 50px 0px;
+}
+.block6__back{
+    height: 350px;
+    padding: 0px;
+    background-image: url("../img/ph4.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.block6__form{
+    height: 500px;
+    display: flex;
+    width: 70%;
+    margin: 0px 220px 0px 0px;
+    flex-direction: column;
+    text-align: center;
+}
+.block6__form-01{
+	color: #6be571;
+	font-family: 'Bebas Neue', cursive;
+	font-size: 55px;
+	margin: 20px 20px 0px 20px;
+}
+.block6__form-02{
+	color: white;
+    font-family: 'Oswald', sans-serif;
+	font-size: 19px;
+	margin: 10px 150px 20px 40px;
+}
+/*---блок 7---*/
+.block7{
+    height: 500px;
+    background-color: #161515;
+    padding: 80px 0px;
+}
+.block7__back{
+    height: 350px;
+    padding: 0px;
+    background-image: url("../img/ph5.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.block7__form{
+    height: 500px;
+    display: flex;
+    width: 70%;
+    margin: 0px 0px 0px 180px;
+    flex-direction: column;
+    text-align: center;
+}
+.block7__form-01{
+	color: #55abea;
+	font-family: 'Bebas Neue', cursive;
+	font-size: 55px;
+	margin: -10px 20px 0px 0px;
+}
+.block7__form-02{
+	color: white;
+    font-family: 'Oswald', sans-serif;
+	font-size: 19px;
+	margin: 10px 30px 20px 190px;
+}
+/*---блок 8---*/
+.block8{
+    height: 330px;
+    background-color: #0b0b0d;
+    padding: 10px 0px;
+}
+.block8__back{
+    height: 330px;
+    padding: -20px 0px 0px 0px;
+    background-image: url("../img/b2.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.block8__form{
+    font-family: 'Oswald', sans-serif;
+	color: white;
+	font-size: 19px;
+	margin: 0px 300px 5px 0px;
+	text-align: justify;
+}
+/*---блок 9---*/
+footer{
+    background-color: #0b0b0d;
+    height: 70px;
+}
+.block9{
+    font-family: 'Oswald', sans-serif;
+ 	color: white;
+ 	font-size: 12px;
+ 	padding: 20px 10px;
+ 	text-align: center;
+}
